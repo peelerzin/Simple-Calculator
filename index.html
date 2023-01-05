@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simple Calculator</title>
+		<link rel="stylesheet" href="./src/style.css" />
+	</head>
+	<body>
+		<div
+			id="wrapper"
+			class="w-screen h-screen flex flex-col justify-center items-center border-2 border-black"
+		>
+			<div
+				id="screen"
+				class="w-[400px] h-16 bg-slate-300 flex justify-end items-center text-3xl"
+			></div>
+			<div
+				id="buttons"
+				class="w-[400px] h-[400px] grid grid-cols-4 grid-rows-4 gap-[1px]"
+			></div>
+		</div>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
